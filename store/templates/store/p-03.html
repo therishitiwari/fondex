@@ -37,33 +37,37 @@
     
 </head>
 
-
 <body>
     <div class="page-wrapper">
-        <header class="header">
+        <header class="header header-intro-clearance header-4">
             <div class="header-top">
-                <div class="container">
-                    <div class="header-left">
-                        <div class="header-dropdown">
-                            <a href="#">
-                                90 days to love it | 100% Risk free
-                                
-                                </a>
-                            
-                        </div><!-- End .header-dropdown -->
+                <div class="container top-nav">
+                    <div class="header-left" style="color: aliceblue">
+                        <a href="mailto:info.fondex.in@gmail.com
+                        "><i class="icon-envelope" ></i>info.fondex.in@gmail.com</a>
                     </div><!-- End .header-left -->
 
+                    <div class="header-right">            
+                       <div class="header-">
+                        <a href="#"></a>                       
+                    </div>
                     <div class="header-right">
                         <ul class="top-menu">
                             <li>
                                 <a href="#"></a>
-                                <div class="social-icons social-icons-color justify-content-center">
+                                <div class="social-icons social-icons-color justify-content-center" style="color: aliceblue">
                                 <ul>
-                                    <li><a href="https://www.linkedin.com/company/founders-community-in/" class="social-icon social-linkedin" title="linkedin" target="_blank"><i class="icon-linkedin-in"></i></a></li>
+                                   
                                     <li><a href="http://www.instagram.com/fondex.in" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a></li>
-                                    <li><a href="mailto:info.fondex.in@gmail.com" class="social-icon social-envelop" title="Email" target="_blank"><i class="icon-envelope"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/founders-community-in/" class="social-icon social-linkedin" title="linkedin" target="_blank"><i class="icon-linkedin-in"></i></a></li>
+                                    <li><a href="mailto:info.fondex.in@gmail.com" class="social-icon social-envolve" title="Email" target="_blank"><i class="icon-envelope"></i></a></li>
+
+                                   
+ 
                                     <div class="col-md-4">
                                         <div class="contact-box text-center">
+                                           
+            
                                         </div><!-- End .contact-box -->
                                     </div><!-- End .col-md-4 -->
                                 </ul>
@@ -72,38 +76,96 @@
                             
                         </ul><!-- End .top-menu -->
                     </div><!-- End .header-right -->
+                    </div><!-- End .header-right -->
                 </div><!-- End .container -->
             </div><!-- End .header-top -->
 
-            <div class="header-middle sticky-header">
-                <div class="container">
+            <div class="header-middle">
+                <div class="container" style="color: #272242;">
                     <div class="header-left">
                         <button class="mobile-menu-toggler">
-                            <span class="sr-only"></span>
+                            <span class="sr-only">To</span>
                             <i class="icon-bars"></i>
                         </button>
 
                         <a href="/" class="logo">
-                            <img src="{% static 'assets/images/fondex material/bg-logoo2.png'%}" alt="FondeX Logo" width="105" height="25">
+                            <img src="{% static 'assets/images/fondex material/bg-logoo.png' %}" alt="FondeX Logo" width="105" height="25">
                         </a>
+                    </div><!-- End .header-left -->
 
+                    <div class="header-center">
+                        <div class="header-search header-search-extended header-search-visible d-none d-lg-block">
+                            <a href="#" class="search-toggle" role="button"><i class="icon-search"></i></a>
+                            <form method="get">
+                                    <select name="Card" id="cars" onchange="window.location.href=this.value">
+                                        <option name="Card" value="#">Choose Your Card for Purchase</option>
+                                        <option name="Card" value="/p-01.html">Entrepreneurs Card (Normal)</option>
+                                        <option name="Card" value="/p-02.html">NFC Entrepreneurs</option>
+                                        <option name="Card" value="/p-03.html">Creators Card(NFC)</option>
+                                        <option name="Card" value="/p-04.html">Business Card(NFC)</option>
+                                        <option name="Card" value="/p-05.html">Gamer Card(NFC)</option>
+                                        <option name="Card" value="/p-06.html">FondeX Card(NFC)</option>
+                                    </select>
+                            </form>
+                        </div><!-- End .header-search -->
+                    </div>
+                </div><!-- End .container -->
+            </div><!-- End .header-middle -->
+            <div class="header-bottom sticky-header">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="dropdown category-dropdown">
+                            <a href="/shop.html" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static" title="Browse Categories">
+                                Browse Categories <i class="icon-angle-down"></i>
+                            </a>
+
+                            <div class="dropdown-menu">
+                                <nav class="side-nav">
+                                    <ul class="menu-vertical sf-arrows">
+                                        <li class="item-lead"><a href="/p-01.html">NFC Entrepreneurs Card</a></li>
+                                        <li class="item-lead"><a href="/0-02.html">NFC Entrepreneurs Matte</a></li>
+                                        <li class="item-lead"><a href="/0-03.html">NFC Creators Card</a></li>
+                                        <li class="item-lead"><a href="/0-04.html">NFC Business Card</a></li>
+                                        <li class="item-lead"><a href="/0-05.html">NFC Gamers Card</a></li>
+                                        <li class="item-lead"><a href="/0-06.html">NFC Fondex Card</a></li>
+                                        
+                                       
+                                    </ul><!-- End .menu-vertical -->
+                                </nav><!-- End .side-nav -->
+                            </div><!-- End .dropdown-menu -->
+                        </div><!-- End .category-dropdown -->
+                    </div><!-- End .header-left -->
+
+                    <div class="header-center">
                         <nav class="main-nav">
                             <ul class="menu sf-arrows">
                                 <li class="megamenu-container ">
                                     <a href="/" class="">Home</a>
+                                </li>
                                 <li>
                                     <a href="/shop.html" class="">Shop</a>
 
-                                    
+                                   
+                                </li>
                                 <li>
-                                    <a href="/about.html" class="">About Us</a>
+                                    <a href="/about.html" class="">About</a>
+
+                                </li>
                                 <li>
-                                    <a href="/contact.html" class="">Contact Us</a>
+                                    <a href="/contact.html" class="">Contact</a>
+
+                                
+                                </li>
+                                
                             </ul><!-- End .menu -->
                         </nav><!-- End .main-nav -->
-                    </div><!-- End .header-left -->
+                    </div><!-- End .header-center -->
+
+                    <div class="header-right">
+                        <i class="la la-lightbulb-o"></i><p>Clearance<span class="highlight">&nbsp;Up to 10% Off</span></p>
+                    </div>
                 </div><!-- End .container -->
-            </div><!-- End .header-middle -->
+            </div><!-- End .header-bottom -->
         </header><!-- End .header -->
 
         <main class="main">
